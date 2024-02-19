@@ -13,6 +13,8 @@ html {
 }
 
 .header {
+    display: grid; 
+    grid-template-columns: 1fr;
     background-color: rgb(204, 0, 255);
     color: #ffffff;
     padding: 15px;
@@ -46,6 +48,8 @@ html {
 }
 
 .footer {
+    display: grid;
+    grid-template-columns: 1fr; 
     background-color: rgb(0, 255, 170);
     color: #ffffff;
     text-align: center;
